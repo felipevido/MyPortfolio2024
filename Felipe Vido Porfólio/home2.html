@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Vido</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="../../../maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/smooth-scrollbar.css">
+    <link rel="stylesheet" href="assets/css/lightbox.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body class="home1-page">
+
+    <video class="body-overlay" muted autoplay loop>
+        <source src="assets/images/video3.mp4" type="video/mp4">
+    </video>
+
+    <div class="page-loader">
+        <div class="bounceball"></div>
+    </div>
+
+    <span class="icon-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </span>
+
+    <div class="global-color">
+        <span class="setting-toggle">
+            <i class="las la-cog"></i>
+        </span>
+        <div class="inner">
+            <div class="overlay"></div>
+            <div class="global-color-option">
+                <span class="close-settings">
+                    <i class="las la-times"></i>
+                </span>
+                <h2>Personalizar</h2>
+                <div class="global-color-option-inner">
+                    <p>Cores</p>
+                    <div class="color-boxed">
+                        <a href="#" class="clr-active" onclick="color1();"></a>
+                        <a href="#" onclick="color2();"></a>
+                        <a href="#" onclick="color3();"></a>
+                        <a href="#" onclick="color4();"></a>
+                        <a href="#" onclick="color5();"></a>
+                        <a href="#" onclick="color6();"></a>
+                        <a href="#" onclick="color7();"></a>
+                        <a href="#" onclick="color8();"></a>
+                    </div>
+
+                    <p>Background</p>
+                    <ul class="themes">
+                        <li><a href="index.html">Linhas Esféricas</a></li>
+                        <li class="active"><a href="home2.html">Ondas D'Água</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive-sidebar-menu">
+        <div class="overlay"></div>
+        <div class="sidebar-menu-inner">
+            <div class="menu-wrap">
+                <p>Menu</p>
+                <ul class="menu scroll-nav-responsive d-flex">
+                    <li>
+                        <a class="scroll-to" href="#home">
+                            <i class="las la-home"></i> <span>Inicio</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#about">
+                            <i class="lar la-user"></i> <span>Sobre</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#resume">
+                            <i class="las la-briefcase"></i> <span>Educação</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#services">
+                            <i class="las la-stream"></i> <span>Experiência</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#skills">
+                            <i class="las la-rocket"></i> <span>Habilidades</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#portfolio">
+                            <i class="las la-grip-vertical"></i> <span>Projetos</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#testimonial">
+                            <i class="lar la-comment"></i> <span>Serviços</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#contact">
+                            <i class="las la-envelope"></i> <span>Contato</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sidebar-social">
+                <p>Social</p>
+                <ul class="social-links d-flex align-items-center">
+                    <li>
+                        <a target="_blank" href="https://twitter.com/vido_felipe"><i class="lab la-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://wa.me/5514998854798"><i class="lab la-whatsapp"></i></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/fp.vido/"><i class="lab la-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="mailto:felipevido@emcosta.com.br"><i class="las la-envelope"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <ul class="menu scroll-nav d-flex">
+        <li>
+            <a class="scroll-to" href="#home">
+                <span>Inicio</span> <i class="las la-home"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#about">
+                <span>Sobre</span> <i class="lar la-user"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#resume">
+                <span>Educação</span> <i class="las la-briefcase"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#services">
+                <span>Experiência</span> <i class="las la-stream"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#skills">
+                <span>Habilidades</span> <i class="las la-rocket"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#portfolio">
+                <span>Projetos</span> <i class="las la-star"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#testimonial">
+                <span>Serviços</span> <i class="las la-code"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#contact">
+                <span>Contatos</span> <i class="las la-envelope"></i>
+            </a>
+        </li>
+    </ul>
+
+    <div class="left-sidebar">
+        <div class="sidebar-header d-flex align-items-center justify-content-between">
+            <img src="assets/images/logo.png" alt="Logo">
+        </div>
+        <h2 class="email">Felipe Vido</h2>
+        <h2 class="address"><b>20 anos</b></h2>
+        <p class="copyright">&copy; <b>2023 Emcosta Digital.</b> Todos os Direitos Reservados</p>
+        <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
+            <li>
+                <a target="_blank" href="https://twitter.com/vido_felipe"><i class="lab la-twitter"></i></a>
+            </li>
+            <li>
+                <a target="_blank" href="https://wa.me/5514998854798"><i class="lab la-whatsapp"></i></a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.instagram.com/fp.vido/"><i class="lab la-instagram"></i></a>
+            </li>
+            <li>
+                <a target="_blank" href="mailto:felipevido@emcosta.com.br"><i class="las la-envelope"></i></a>
+            </li>
+        </ul>
+        <a href="https://wa.me/5514998854798?text=Olá!%20Estou%20interessado%20em%20seus%20serviços." class="theme-btn">
+            <i class="las la-envelope"></i> MENSAGEM
+        </a>
+    </div>
+
+    <main class="drake-main">
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+
+                <div class="left-sidebar">
+                    <div class="sidebar-header d-flex align-items-center justify-content-between">
+                        <img src="assets/images/logo.png" alt="Logo">
+                    </div>
+                    <h2 class="email">Felipe Vido</h2>
+                    <p class="copyright">&copy; <b>2023 Emcosta Digital.</b> Todos os direitos reservados.</p>
+                    <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
+                        <li>
+                            <a target="_blank" href="https://twitter.com/vido_felipe"><i class="lab la-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://wa.me/5514998854798"><i class="lab la-whatsapp"></i></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com/fp.vido/"><i class="lab la-instagram"></i></a>
+                        </li>
+                    </ul>
+                    <a target="_blank" href="https://wa.me/5514998854798?text=Olá!%20Estou%20interessado%20em%20seus%20serviços." class="theme-btn">
+                        <i class="las la-envelope"></i> MENSAGEM
+                    </a>
+                </div>
+
+                <section class="hero-section page-section scroll-to-page" id="home">
+
+                    <div class="custom-container">
+                        <div class="hero-content content-width">
+                            <div class="section-header sizeadapt">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-home"></i> Introdução
+                                </h4>
+                                <h1 style="letter-spacing: -1.5px; line-height: 1;" class="scroll-animation" data-animation="fade_from_bottom">Prazer em
+                                    <span>conhecer</span>. Sou Designer e <b>Desenvolvedor</b>.
+                                </h1>
+                            </div>
+                            <p class="scroll-animation" data-animation="fade_from_bottom">Abaixo você verá um pouco
+                                sobre <b>Felipe Vido.</b> Portfólio desenvolvido para fins acadêmicos e profissionais.
+                            </p>
+                            <a href="#portfolio" class="go-to-project-btn scroll-to scroll-animation"
+                                data-animation="rotate_up">
+                                <img src="assets/images/round-text.png" alt="Rounded text">
+                                <i class="las la-arrow-down"></i>
+                            </a>
+
+                            <div class="facts d-flex">
+                                <div class="left scroll-animation" data-animation="fade_from_left">
+                                    <h1>5+</h1>
+                                    <p>Anos desenvolvendo <br>ideias.</p>
+                                </div>
+                                <div class="right scroll-animation" data-animation="fade_from_right">
+                                    <h1>30+</h1>
+                                    <p>projetos e soluções digitais <br>criadas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="about-area page-section scroll-to-page" id="about">
+                    <div class="custom-container">
+                        <div class="about-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="lar la-user"></i> Sobre
+                                </h4>
+                                <h1 style="line-height: 1;" class="scroll-animation" data-animation="fade_from_bottom">O sucesso é a soma de
+                                    pequenos<br>
+                                    esforços <span>repetidos dia a dia.</span></h1>
+                            </div>
+                            <p class="scroll-animation" data-animation="fade_from_bottom">Não sei de tudo, todo dia sigo
+                                aprendendo. Porém, todas as minhas criações possuem um objetivo em comum: <b>gerar
+                                    admiração dos usuários.</b> <br>
+                                Comecei com Design, criando logotipos e sites em construtores. <br><br> Hoje, construo
+                                soluções digitais através da programação e desenvolvimento.
+                                Criei muitas coisas. A maioria delas eu deixei para trás, pois fizeram parte de uma
+                                etapa de aprendizado, já outras foram oficializadas e revendidas a terceiros.
+                                <br><br>
+                                Antes, treinava produzindo sites institucionais, blogs, páginas motivacionais, jogos básicos, etc. Agora, arquiteto e performo plataformas profissionais, sistemas funcionais, sites empresáriais e
+                                ambientes automatizados com inteligência artificial, tudo isso com aquela pitada de Design.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="resume-area page-section scroll-to-page" id="resume">
+                    <div class="custom-container">
+                        <div class="resume-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-briefcase"></i> RESUMO
+                                    <h1 style="line-height: 1;" class="scroll-animation" data-animation="fade_from_bottom">Educação &
+                                        <span>Experiência</span>
+                                    </h1>
+                            </div>
+
+                            <div class="resume-timeline">
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Profissões (Presente)</span>
+                                    <h2>Diretor de Desenvolvimento Front-End</h2>
+                                    <p>Emcosta Digital</p>
+                                    <h2>Funcionário Polivalente</h2>
+                                    <p>Comércio Local</p>
+                                    <h2>Suporte Técnico</h2>
+                                    <p>Autonômo</p>
+                                </div>
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Qualificação</span>
+                                    <h2>Programação em Flutter/Dart</h2>
+                                    <p>Startto.Dev</p>
+                                    <h2>Programação em React Native</h2>
+                                    <p>CODER Udemy</p>
+                                    <h2>Desenvolvimento de Sistemas</h2>
+                                    <p>ETEC</p>
+                                    <h2>Desenvolvimento Web</h2>
+                                    <p>Novotec</p>
+                                    <h2>Itdr. Desenvolvimento de Jogos</h2>
+                                    <p>USP E-Disciplinas</p>
+                                </div>
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Educação</span>
+                                    <h2>Manutenção e Hardware</h2>
+                                    <p>Microcamp Tecnologia</p>
+                                    <h2>Informática</h2>
+                                    <p>Microcamp Tecnologia</p>
+                                    <h2>Inglês</h2>
+                                    <p>Microcamp Tecnologia</p>
+                                    <h2>Desenvolvimento Profissional</h2>
+                                    <p>ECP. Recursos Humanos</p>
+                                    <h2>Ensino Médio</h2>
+                                    <p>E.E. Prof. Sebastião Inoc Assumpção</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="services-area page-section scroll-to-page" id="services">
+                    <div class="custom-container">
+                        <div class="services-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-stream"></i> Serviços
+                                </h4>
+                                <h1 style="line-height: 1;" class="scroll-animation" data-animation="fade_from_bottom">Como posso
+                                    <span>te ajudar?</span>
+                                </h1>
+                            </div>
+
+                            <div class="services-items">
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-code"></i>
+                                    <h2>Front-End & CMS</h2>
+                                    <p>Criação de aplicativos e sistemas Low-Code / No-Code, desenvolvimento de
+                                        websites, plataformas e
+                                        e-commerces.
+                                    </p>
+                                    <span class="projects-desc"><b>+20 PROJETOS</b> (HTML, CSS, JS, BOOTSTRAP, PHP,
+                                        REACT NATIVE, C++, DART, TAILWIND, W3.CSS, SAAS, ARDUINO IDE, ANDROID STUDIO, GSAP)</span>
+                                </div>
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-bezier-curve"></i>
+                                    <h2>Design</h2>
+                                    <p>Produção de logotipos, Kits de marca, ilustrações, banners, imagens para redes
+                                        sociais, patterns, UI Design.</p>
+                                    <span class="projects-desc"><b>+40 PROJETOS</b></span>
+                                </div>
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-play"></i>
+                                    <h2>Motion Graphics</h2>
+                                    <p>Edição de vídeos, animação de logotipos, animação de ilustração, Morph
+                                        SlideShows, animação tipográfica.</p>
+                                    <span class="projects-desc"><b>+10 PROJETOS</b></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="skills-area page-section scroll-to-page" id="skills">
+                    <div class="custom-container">
+                        <div class="skills-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-rocket"></i> HABILIDADES
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Minhas
+                                    <span>Aptidões</span>
+                                </h1>
+                            </div>
+
+                            <div class="row skills text-center">
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="assets/images/office.png" alt="Pacote Office">
+                                            <h1 class="percent">95%</h1>
+                                        </div>
+                                        <p class="name">Pacote Office</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_top">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="assets/images/photoshop.png" alt="Photoshop">
+                                            <h1 class="percent">90%</h1>
+                                        </div>
+                                        <p class="name">Adobe Photoshop</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_right">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="assets/images/illustrator.png" alt="Illustrator">
+                                            <h1 class="percent">89%</h1>
+                                        </div>
+                                        <p class="name">Adobe Illustrator</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="assets/images/after effects.png" alt="After Effects">
+                                            <h1 class="percent">85%</h1>
+                                        </div>
+                                        <p class="name">Adobe After Effects</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_right">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="assets/images/figma.png" alt="Figma">
+                                            <h1 class="percent">87%</h1>
+                                        </div>
+                                        <p class="name">Figma</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="assets/images/flutterflow.png" alt="FlutterFlow">
+                                            <h1 class="percent">71%</h1>
+                                        </div>
+                                        <p class="name">FlutterFlow</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_top">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="assets/images/bubble.png" alt="Bubble">
+                                            <h1 class="percent">80%</h1>
+                                        </div>
+                                        <p class="name">Bubble.io</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_right">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="assets/images/firebase.png" alt="Firebase">
+                                            <h1 class="percent">60%</h1>
+                                        </div>
+                                        <p class="name">Firebase</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="assets/images/wordpress.png" alt="WordPress">
+                                            <h1 class="percent">76%</h1>
+                                        </div>
+                                        <p class="name">WordPress</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="assets/images/vsc.png" alt="VSC">
+                                            <h1 class="percent">99%</h1>
+                                        </div>
+                                        <p class="name">Visual Studio Code</p>
+                                    </div>
+                                </div>
+                                 <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="assets/images/html.png" alt="HTML">
+                                            <h1 class="percent">94%</h1>
+                                        </div>
+                                        <p class="name">HTML</p>
+                                    </div>
+                                </div>
+                                 <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="assets/images/css.png" alt="CSS">
+                                            <h1 class="percent">89%</h1>
+                                        </div>
+                                        <p class="name">CSS</p>
+                                    </div>
+                                </div>
+                                 <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="assets/images/js.png" alt="Java Script">
+                                            <h1 class="percent">45%</h1>
+                                        </div>
+                                        <p class="name">JS</p>
+                                    </div>
+                                </div>
+                                 <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="assets/images/ionic.png" alt="Ionic">
+                                            <h1 class="percent">69%</h1>
+                                        </div>
+                                        <p class="name">Ionic</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="assets/images/C++.png" alt="C++">
+                                            <h1 class="percent">15%</h1>
+                                        </div>
+                                        <p class="name">C++</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="assets/images/flutter.png" alt="Flutter">
+                                            <h1 class="percent">29%</h1>
+                                        </div>
+                                        <p class="name">Flutter</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="portfolio-area page-section scroll-to-page" id="portfolio">
+                    <div class="custom-container">
+                        <div class="portfolio-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-star"></i> portfólio
+                                </h4>
+                                <h1 style="line-height: 1;" class="scroll-animation" data-animation="fade_from_bottom">Trabalhos em
+                                    <span>Execução</span>
+                                </h1>
+                            </div>
+
+                            <div class="row portfolio-items">
+                                <div class="col-md-12 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="portfolio-item portfolio-full">
+                                        <div class="portfolio-item-inner">
+                                            <a href="assets/images/smartlab-big-screens.png" data-lightbox="example-1">
+                                                <img src="assets/images/smartlab-screens.png" alt="Portfolio">
+                                            </a>
+
+                                            <ul class="portfolio-categories">
+                                                <li>
+                                                    <a href="#">HTML/CSS</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Java Script</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Bootstrap 5</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">jQuery</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">SASS</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h2><a href="#">SmartLab - Banco de Inteligências Artificiais</a></h2>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 scroll-animation" data-animation="fade_from_left">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="assets/images/atlas-gif.gif" data-lightbox="example-1">
+                                                <img src="assets/images/atlas-screens.png" alt="Portfolio">
+                                            </a>
+
+                                            <img src="assets/images/atlas-gif.gif" alt="Portfolio">
+
+                                            <ul class="portfolio-categories">
+                                                <li>
+                                                    <a href="#">Dart</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Flutter</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Firebase</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h2><a href="#">Atlas - Aplicativo de Interação Socioespacial</a></h2>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 scroll-animation" data-animation="fade_from_right">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="assets/images/perseverance-screens.png" data-lightbox="example-1">
+                                                <img src="assets/images/perseverance-big-screens.png" alt="Portfolio">
+                                            </a>
+
+                                            <ul class="portfolio-categories">
+                                                <li>
+                                                    <a href="#">Tailwind</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">MySQL</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Stripe</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h2><a href="#">Perseverance - Central de Doações (SFL)</a></h2>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="assets/images/br-compras-big-screens.png" data-lightbox="example-1">
+                                                <img src="assets/images/br-compras-screens.png" alt="Portfolio">
+                                            </a>
+
+                                            <ul class="portfolio-categories">
+                                                <li>
+                                                    <a href="#">HTML/CSS</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Bootstrap 5</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Yampi</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Tailwind</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Scroll Trigger GSAP</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h2><a href="#">Brasil Compras - E-Commerce de eletrônicos importados</a></h2>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="assets/images/stockit-big-screen.png" data-lightbox="example-1">
+                                                <img src="assets/images/stockit-screens.png" alt="Portfolio">
+                                            </a>
+
+                                            <ul class="portfolio-categories">
+                                                <li>
+                                                    <a href="#">HTML/CSS</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">PHP</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Firebase</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Java Script</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Chart JS</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h2><a href="#">Stock It - Ecossistema (Mobile & Web App) gerenciamento de estoque comercial</a></h2>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="testimonial-area page-section scroll-to-page" id="testimonial">
+                    <div class="custom-container">
+                        <div class="testimonial-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-trophy"></i> NOMEAÇÕES
+                                </h4>
+                                <h1 style="line-height: 1;" class="scroll-animation" data-animation="fade_from_bottom">Alcances e <span>Premiações</span></h1>
+                            </div>
+
+                            <div class="testimonial-slider-wrap scroll-animation" data-animation="fade_from_bottom">
+                                <div class="owl-carousel testimonial-slider owl-theme">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-item-inner">
+                                            <div class="author d-flex align-items-center">
+                                                <img src="assets/images/unip.png" alt="Testimonial">
+                                                <div class="right">
+                                                    <h3>Equipe Vencedora</h3>
+                                                    <p class="designation"><b>FECITEC</b> (Feira de Ciências e Tecnologia) <span>UNIP 2019</span></p>
+                                                </div>
+                                            </div>
+                                            <p>“1° lugar na apresentação de projetos desenvolvidos com <b>Arduino</b> e seus materiais complementares, como Servos Motores, sensores ultrassônicos e fotoelétricos.”</p>
+
+                                            <a href="#" class="project-btn">Prof° Sebastião Inoc Assumpção</a>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-item-inner">
+                                            <div class="author d-flex align-items-center">
+                                                <img src="assets/images/smartlab-profile.png" alt="Testimonial">
+                                                <div class="right">
+                                                    <h3>+3 Milhões de Visualizações</h3>
+                                                    <p class="designation">Perfil do TikTok <span>SmartLab</span></p>
+                                                </div>
+                                            </div>
+                                            <p>“O perfil ensina a utilizar inteligências artificiais do mercado e apresenta ferramentas poderosas da Internet.<b> Atualmente acumula milhões de Views e milhares de seguidores.</b>”</p>
+
+                                            <a target="_blank" href="https://www.tiktok.com/@smartlab.com" class="project-btn">Acessar SmartLab</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-footer-nav">
+                                    <div class="testimonial-nav d-flex align-items-center">
+                                        <button class="prev"><i class="las la-angle-left"></i></button>
+                                        <div id="testimonial-slide-count"></div>
+                                        <button class="next"><i class="las la-angle-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="clients-logos">
+                                <h4 class="scroll-animation" data-animation="fade_from_bottom">Principais clientes e iniciativas</h4>
+                                <div class="row align-items-center">
+                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
+                                        <img src="assets/images/emcostaworkspace-client.png" alt="Emcosta Workspace">
+                                    </div>
+                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                        <img src="assets/images/smartlab-client.png" alt="SmartLab">
+                                    </div>
+                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_top">
+                                        <img src="assets/images/oncart-client.png" alt="onCart">
+                                    </div>
+                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_right">
+                                        <img src="assets/images/emcostadigital-client.png" alt="Emcosta Digital">
+                                    </div>
+                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
+                                        <img src="assets/images/vidofinance-client.png" alt="VidoFinance">
+                                    </div>
+                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                        <img src="assets/images/tstech-client.png" alt="TS Tech">
+                                    </div>
+                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_top">
+                                        <img src="assets/images/casafafruta-client.png" alt="Casa da Fruta">
+                                    </div>
+                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_right">
+                                        <img src="assets/images/3coracoes-client.png" alt="Conveniência 3 Corações">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="pricing-area page-section scroll-to-page" id="pricing">
+                    <div class="custom-container">
+                        <div class="pricing-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-dollar-sign"></i> VALORES
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Tabela de <span>Valores</span>
+                                </h1>
+                            </div>
+
+                            <div class="pricing-table-items">
+                                <div class="row">
+                                    <div class="col-md-6 scroll-animation" data-animation="fade_from_left">
+                                        <div class="pricing-table">
+                                            <div class="pricing-table-header">
+                                                <div class="top d-flex justify-content-between align-items-start">
+                                                    <h4>DESIGN</h4>
+                                                    <p class="text-right">Precisa melhorar sua marca?<br>
+                                                        Ou comece do zero.</p>
+                                                </div>
+                                                <h1>$50 <span>/ a partir</span></h1>
+                                            </div>
+                                            <ul class="feature-lists">
+                                                <li>Logotipo e relacionados</li>
+                                                <li>Mínimo de 24 horas</li>
+                                                <li>Vários formatos</li>
+                                                <li>Descontos em Motion Graphics</li>
+                                                <li>Seu esboço reduz o orçamento</li>
+                                                <li>Modelo Outsourcing pode ser aplicado</li>
+                                            </ul>
+                                            <a href="https://wa.me/5514998854798?text=Olá!%20Preciso%20de%20um%20serviço%20de%20Design." class="theme-btn">PRECISO DISSO</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 scroll-animation" data-animation="fade_from_right">
+                                        <div class="pricing-table">
+                                            <div class="pricing-table-header">
+                                                <div class="top d-flex justify-content-between align-items-start">
+                                                    <h4>desenvolvimento</h4>
+                                                    <p class="text-right">Quer um site?<br>
+                                                        Deixa comigo.</p>
+                                                </div>
+                                                <h1>$200 <span>/ a partir</span></h1>
+                                            </div>
+                                            <ul class="feature-lists">
+                                                <li>Websites, Landing Pages, Web-Sistemas</li>
+                                                <li>Templates exlusivos ou editáveis</li>
+                                                <li>Full-Code, Low-Code ou No-Code</li>
+                                                <li>E-Commerces CMS</li>
+                                                <li>Valor negociável</li>
+                                                <li>Sujeito a etapas UML e MVP</li>
+                                                <li>Modelo Outsourcing pode ser aplicado</li>
+                                            </ul>
+                                            <a href="https://wa.me/5514998854798?text=Olá!%20Preciso%20de%20um%20serviço%20de%20programação." class="theme-btn">TENHO INTERESSE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="info scroll-animation" data-animation="fade_from_bottom">
+                                    Não encontrou uma solução para sua necessidade?<br>
+                                    Eu posso analisar o que você precisa e montar um pacote sob medida. <a href="#">Converse comigo agora</a>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="contact-area page-section scroll-content" id="contact">
+                    <div class="custom-container">
+                        <div class="contact-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-phone"></i> contato
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Entre em
+                                    <span>Contato!</span>
+                                </h1>
+                            </div>
+                            <h3 class="scroll-animation" data-animation="fade_from_bottom">felipevido@emcosta.com.br</h3>
+                            <p id="required-msg">* Campos obrigatórios.</p>
+
+                            <form class="contact-form scroll-animation" data-animation="fade_from_bottom" method="POST"
+                                action="./assets/PHP/form.php">
+                                <div class="alert alert-success messenger-box-contact__msg" style="display: none"
+                                    role="alert">
+                                    Sua mensagem foi enviada com sucesso!
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="full-name">NOME COMPLETO <sup>*</sup></label>
+                                            <input type="text" name="full-name" id="full-name"
+                                                placeholder="Seu nome">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="email">Email <sup>*</sup></label>
+                                            <input type="email" name="email principal" id="email" placeholder="Seu endereço de Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="phone-number">Telefone <span>(WhatsApp)</span></label>
+                                            <input type="text" name="phone-number" id="phone-number"
+                                                placeholder="Número com DDD">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="subject">Assunto <sup>*</sup></label>
+                                            <select name="subject" id="subject">
+                                                <option value="">O que você precisa?</option>
+                                                <option value="subject1">Design</option>
+                                                <option value="subject2">Desenvolvimento</option>
+                                                <option value="subject3">Edição/Motion Graphics</option>
+                                                <option value="subject3">Outras dúvidas</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <label for="message">sua mensagem</label>
+                                            <textarea name="message" id="message"
+                                                placeholder="Descreva os detalhes aqui ..."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-group submit-btn-wrap">
+                                            <button class="theme-btn" name="submit" type="submit" id="submit-form">enviar mensagem</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <script src="assets/js/lightbox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/color.js"></script>
+    <?php include 'form.php'; ?>
+</body>
+
+</html>
